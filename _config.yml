@@ -1,9 +1,11 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+  highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:title
 relative_permalinks: true
 
 # Setup
@@ -12,6 +14,8 @@ tagline:          Black Theme for Jekyll
 description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
 url:              https://github.com/karloespiritu/blackdoc
 baseurl:          /
+
+category-list: [aircraft]
 
 author:
   name:           'Karlo Espiritu'
