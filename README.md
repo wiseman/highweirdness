@@ -1,3 +1,13 @@
+# High Weirdness
+
+A static website that is a catalog of weird and interesting things
+that fly over the Los Angeles area.
+
+## Current status
+
+Barely started; There are a couple prototype pages w/ some formatting experiments.
+
+
 # BlackDoc
 
 BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for websites that require a master-detail layout for viewing of content. It's based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme.
